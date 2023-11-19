@@ -1,0 +1,43 @@
+/* style.css : Style de base pour les sections */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #88c1d0;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .menu-icon {
+    display: none;
+    cursor: pointer;
+  }
+  
+  /* Ajoutez des media queries pour modifier le style en fonction de la résolution de l'écran */
+  @media (max-width: 767px) {
+    nav {
+      display: none;
+    }
+  
+    .menu-icon {
+      display: block;
+    }
+  
+    .menu-open nav {
+      display: block;
+    }
+  }
+  
